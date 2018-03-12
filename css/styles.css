@@ -1,0 +1,100 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #DDD;
+  border-bottom:1px solid #111;
+  height: 59px;
+  position: absolute;
+  width:100%;
+  z-index: 2;
+}
+
+header {
+  text-align: center;
+}
+
+header button {
+  text-align: left;
+}
+
+
+.container {
+  height: 100%;
+}
+
+.side-panel {
+  background: #111;
+  box-sizing: border-box;
+  float: left;
+  font-size:16px;
+  height: 100%;
+  max-width: 414px;
+  overflow-y:scroll;
+  padding-top: 60px;
+  position:absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.map {
+  background: #CCC;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.pano {
+  height: 200px;
+  width: 200px;
+}
+
+.location-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.location-item {
+  color: #EEE;
+  cursor: pointer;
+  list-style-position:inside;
+  padding: 10px;
+}
+
+.location-item:hover {
+  background-color: #AAA;
+}
+
+.filter input {
+  margin: 5px;
+  padding: 10px;
+  width: 75%;
+}
+
+.hamburger {
+  background: none;
+  cursor: pointer;
+  font-size: 0.5em;
+  left: 3px;
+  padding: 5px 15px;
+  position: absolute;
+  top: 20px;
+}
+
+.cross {
+  background: none;
+  cursor: pointer;
+  font-size: 0.5em;
+  font-weight: bold;
+  left: 3px;
+  padding: 7px 15px;
+  position: absolute;
+  top: 20px;
+}
